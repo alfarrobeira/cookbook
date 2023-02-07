@@ -10,5 +10,5 @@ The goal of this project is to practice the a.m. techniques and to collaborate a
 
 ### Team
 - Emrah
-- Aleksandra
+- Oleksandra
 - Anja

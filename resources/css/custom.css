@@ -1,0 +1,12 @@
+body{
+    background-color: #606533;
+    background-image: radial-gradient(#969696 2px, #606533 2px);
+    background-size: 40px 40px;
+    font-family: 'Lora', serif;
+    opacity: 0.9;
+}
+
+#ukrainian {
+    margin-top: 1rem ;
+}
+

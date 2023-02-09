@@ -1,0 +1,12 @@
+#italian {
+    font-family: 'Lora', serif;
+}
+
+#italian .card .card-body .container {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.2rem;
+}
+
+#italian .card .card-body .container a {
+    font-weight: 800;
+}

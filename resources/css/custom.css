@@ -6,21 +6,21 @@ body {
     opacity: 0.9;
 }
 
-#italian {
-    font-family: 'Lora', serif;
+#ukrainian {
+    margin-top: 1rem;
 }
 
-#italian .card .card-body .container {
+.card .card-body .container {
     font-family: 'Catamaran', sans-serif;
     font-size: 1.2rem;
 }
 
-#italian .card .card-body .container a {
+.card .card-body .container a {
     font-weight: 800;
 }
 
-/*************** HOVER EFFECT ***************/
-#italian .hovereffect {
+/*************** Hover Effect on cards ***************/
+.hovereffect {
     width: 100%;
     height: 100%;
     float: left;
@@ -30,7 +30,7 @@ body {
     cursor: default;
 }
 
-#italian .hovereffect .overlay {
+.hovereffect .overlay {
     position: absolute;
     overflow: hidden;
     width: 80%;
@@ -46,7 +46,7 @@ body {
     transform: scale(0, 1);
 }
 
-#italian .hovereffect:hover .overlay {
+.hovereffect:hover .overlay {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: scale(1);
@@ -54,20 +54,20 @@ body {
     transform: scale(1);
 }
 
-#italian .hovereffect img {
+.hovereffect img {
     display: block;
     position: relative;
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
 }
 
-#italian .hovereffect:hover img {
+.hovereffect:hover img {
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
     filter: brightness(0.6);
     -webkit-filter: brightness(0.6);
 }
 
-#italian .hovereffect h2 {
+.hovereffect h2 {
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -83,8 +83,8 @@ body {
     transform: translate3d(0, -100%, 0);
 }
 
-#italian .hovereffect a,
-#italian .hovereffect p {
+.hovereffect a,
+.hovereffect p {
     color: #FFF;
     padding: 1em 0;
     opacity: 0;
@@ -95,18 +95,16 @@ body {
     transform: translate3d(0, 100%, 0);
 }
 
-#italian .hovereffect:hover a,
-#italian .hovereffect:hover p,
-#italian .hovereffect:hover h2 {
+.hovereffect:hover a,
+.hovereffect:hover p,
+.hovereffect:hover h2 {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
 
-#ukrainian {
-    margin-top: 1rem;
-}
+/************ END - Hover Effect on cards */
 
 footer {
     display: flex;
@@ -130,9 +128,4 @@ footer {
     box-shadow: 0 3px 3px 0 #c02828;
     margin-top: 1rem;
     width: 15rem;
-}
-
-.animation a:hover {
-    color: rgb(214, 4, 4);
-    transition: 0.3s;
 }

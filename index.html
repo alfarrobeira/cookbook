@@ -1,204 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookbook</title>
     <!-- Bootstrap link first -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS stylesheets after for overwriting Bootstrap styles -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resources/css/custom.css">
     <!-- Special fonts -->
     <!-- Use the fonts like this: 
         font-family: 'Catamaran', sans-serif;
         font-family: 'Lora', serif; -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700;800&family=Lora:ital@0;1&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700;800&family=Lora:ital@0;1&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </head>
-<body>
-<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4">My Cookbook</span>
-      </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
+<body class="bg-body-secondary">
+
+    <header>
     </header>
-    <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="./resources/img/My-Cook-Book-black-580x386_low.png" alt="" width="580" >
-    <h1 class="display-5 fw-bold">Unleash Your Inner Chef with Us</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Our cookbook is more than just a collection of recipes, it's a community of passionate home cooks sharing their love for food. Discover new techniques, ingredients, and flavors and bring your cooking to the next level. Start your culinary adventure now.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Italian</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Ukrainian</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Mexican</button>
-      </div>
-    </div>
-  </div>
-<main class="container py-5">
 
-  <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 774px;">
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
-      <div class="card">
-        <svg class="bd-placeholder-img card-img-top"  width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%"  fill="#d4f9ff"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-        
-            <image 
-            width="420" 
-            height="280" 
-            xlink:href="./resources/img/brushetta.webp" 
-         />
-            
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Card title that wraps to a new line</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3317%; top: 0px;">
-      <div class="card p-3">
-        <figure class="p-3 mb-0">
-          <blockquote class="blockquote">
-            <p>A well-known quote, contained in a blockquote element.</p>
-          </blockquote>
-          <figcaption class="blockquote-footer mb-0 text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 66.6633%; top: 0px;">
-      <div class="card">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3317%; top: 201px;">
-      <div class="card text-bg-primary text-center p-3">
-        <figure class="mb-0">
-          <blockquote class="blockquote">
-            <p>A well-known quote, contained in a blockquote element.</p>
-          </blockquote>
-          <figcaption class="blockquote-footer mb-0 text-white">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3317%; top: 370px;">
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has a regular title and short paragraph of text below it.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 66.6633%; top: 402px;">
-      <div class="card">
-        <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text></svg>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 410px;">
-      <div class="card p-3 text-end">
-        <figure class="mb-0">
-          <blockquote class="blockquote">
-            <p>A well-known quote, contained in a blockquote element.</p>
-          </blockquote>
-          <figcaption class="blockquote-footer mb-0 text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3317%; top: 548px;">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <div class="d-flex flex-column align-items-center">
+        <!-- Mexican Section Starts -->
+        <section id="mexican">
+            <!-- Baked Tortilla Chips Starts -->
+            <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle" style="width: 35rem;">
+                <div class="card-body">
+                    <div class="jumbotron">
+                        <div class="card-title">
+                            <h2>Baked Tortilla Chips</h2>
+                        </div>
+                        <hr>
+                        <h4 class="fst-italic">This simple recipe for homemade baked tortilla chips is a staple for
+                            whole-food, plant-based kitchens.</h4>
+                    </div>
+                    <div class="hovereffect">
+                        <img src="./resources/img/Tortilla-Chips.jpeg" class="card-img-top img-responsive"
+                            alt="Baked Tortilla Chips">
+                        <div class="overlay">
+                            <h2>Baked Tortilla Chips</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <div class="col px-1">
+                                <a href="#" class="link-dark fst-italic">Mexican kitchen</a>
+                                <div class="card-text">Makes about 32 chips</div>
+                            </div>
+                            <div class="col mx-1 text-secondary">
+                                <div>TOTAL</div>
+                                <div>20 minutes</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <h4>Ingredients</h4>
+                    <ul>
+                        <li>1 12-ounce package oil-free corn tortillas</li>
+                        <!--   <li>2 cloves garlic, minced (about 2 teaspoons)</li>
+                        <li>1 tablespoon extra virgin olive oil</li>
+                        <li>1 teaspoon balsamic vinegar</li>
+                        <li>6 to 8 fresh basil leaves, thinly sliced or chopped</li>
+                        <li>3/4 teaspoon sea salt, more or less to taste</li>
+                        <li>1/2 teaspoon freshly ground black pepper, more or less to taste</li>
+                        <li>1 baguette, French bread, or similar Italian bread</li>
+                        <li>1/4 cup olive oil</li> -->
+                    </ul>
+                    <h4>Instructions</h4>
+                    <ul>
+                        <li>Preheat oven to 375°F.</li>
+                        <li>Cut each tortilla into fourths. Place on a cookie sheet covered with a Silpat* and lightly
+                            spray each chip with water.</li>
+                        <li>Sprinkle with herbs or salt-free seasonings, if desired.</li>
+                        <li>Bake for 10 minutes.</li>
+                        <li>Turn chips over and lightly spray again with water. Bake another 8-10 minutes, until crisp.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Baked Tortilla Chips Ends-->
+ 
+            <!-- Spinach-Potato Tacos Starts -->
+            <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle" style="width: 35rem;">
+                <div class="card-body">
+                    <div class="jumbotron">
+                        <div class="card-title">
+                            <h2>Spinach-Potato Tacos</h2>
+                        </div>
+                        <hr>
+                        <h4 class="fst-italic">Traditional Mexican tacos are much more than ground beef and sour cream
+                            in a fried shell. There are many, many ways to make tacos—in my opinion, this is one of the
+                            best.
+                        </h4>
+                    </div>
+                    <div class="hovereffect">
+                        <img src="./resources/img/Spinach-Potato-Tacos.jpeg" class="card-img-top"
+                            alt="Spinach-Potato Tacos">
+                        <div class="overlay">
+                            <h2>Spinach-Potato Tacos</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <div class="col px-1">
+                                <a href="#" class="link-dark fst-italic">Mexican kitchen</a>
+                                <div class="card-text">Makes 12 Tacos; About 6 cups filling</div>
+                            </div>
+                            <div class="col mx-1 text-secondary">
+                                <div>TOTAL</div>
+                                <div>50 minutes</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <h4>Ingredients</h4>
+                    <!--   <h5>For the sauce:</h5> -->
+                    <ul>
+                        <li>2 large yukon gold potatoes, scrubbed and cut into small dice</li>
+                        <li>1 (10-ounce) package frozen spinach, thawed</li>
+                        <li>1 large onion, diced</li>
+                        <li>1 medium poblano pepper, seeded and diced</li>
+                        <li>2 cloves garlic, minced</li>
+                        <li>2 teaspoons ground cumin</li>
+                        <li>1 cup unsweetened, unflavored plant milk</li>
+                        <li>3 tablespoons nutritional yeast</li>
+                        <li>Sea salt and freshly ground black pepper</li>
+                        <li>12 corn tortillas</li>
+                        <li>½ cup chopped fresh cilantro</li>
 
-</main>
+                    </ul>
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>Place the potatoes in a medium saucepan and add water to cover. Bring to a boil, then reduce
+                            the heat to medium-low and simmer, covered, until the potatoes are tender when pierced with
+                            the tip of a sharp knife, 10 to 12 minutes. Drain well and set aside.</li>
+                        <li>Meanwhile, lay a clean kitchen towel or several layers of paper towel on the counter and
+                            place the thawed spinach at the bottom of one short end. Roll up the spinach in the towel
+                            and, holding it over the sink, twist either end of the roll to squeeze out as much liquid
+                            from the spinach as you can. Unroll and set aside.</li>
+                        <li>In a large skillet, cook the onion and poblano pepper over medium heat, stirring
+                            occasionally and adding water 1 to 2 tablespoons at a time as needed to keep the vegetables
+                            from sticking, until softened, 7 to 8 minutes. Add the garlic and cumin and cook until
+                            fragrant, about 1 minute.</li>
+                        <li>Add the reserved spinach and potatoes along with the plant milk and nutritional yeast.
+                            Season to taste with salt and pepper and cook until heated through, 2 to 3 minutes. Remove
+                            from the heat and set aside.</li>
+                        <li>Meanwhile, heat a large nonstick skillet over medium heat. Add as many corn tortillas to the
+                            pan as will fit in a single layer and heat for a few minutes to warm the tortillas through.
+                            Remove them from the pan and set them aside, covered with a clean kitchen towel to keep
+                            warm. Repeat with the remaining tortillas.</li>
+                        <li>To serve, place the tortillas on individual serving plates or a large platter and divide the
+                            potato mixture among them, spooning it onto the center of each. Sprinkle with cilantro and
+                            serve.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Spinach-Potato Tacos Ends-->
+
+             <!-- Mexican-Style Brown Rice Starts -->
+            <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle" style="width: 35rem;">
+                <div class="card-body">
+                    <div class="jumbotron">
+                        <div class="card-title">
+                            <h2>Mexican-Style Brown Rice</h2>
+                        </div>
+                        <hr>
+                        <h4 class="fst-italic">Mexican rice is a great platter-filler when you’re in need of a savory
+                            side dish that’s full of hearty ingredients, and this version omits oil and replaces white
+                            rice with brown for a healthier twist on the beloved staple. </h4>
+                    </div>
+                    <div class="hovereffect">
+                        <img src="./resources/img/mexican-brown-rice.jpeg" class="card-img-top"
+                            alt="Mexican-Style Brown Rice">
+                        <div class="overlay">
+                            <h2>Mexican-Style Brown Rice</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <div class="col px-1">
+                                <a href="#" class="link-dark fst-italic">Mexican kitchen</a>
+                                <div class="card-text">Makes 8 Cups</div>
+                            </div>
+                            <div class="col mx-1 text-secondary">
+                                <div>TOTAL</div>
+                                <div>60 minutes</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <h4>Ingredients</h4>
+                    <!-- <h5>For the polenta:</h5> -->
+                    <ul>
+                        <li>1¼ cups dry long grain brown rice, rinsed and drained</li>
+                        <li>1 cup finely chopped yellow onion</li>
+                        <li>8 cloves garlic, minced</li>
+                        <li>1 teaspoon dried Mexican oregano, crushed</li>
+                        <li>1½ cups fresh or frozen green peas</li>
+                        <li>½ cup finely chopped carrot</li>
+                        <li>1 8-oz. can tomato sauce (¾ cup)</li>
+                        <li>2 tablespoons finely chopped fresh cilantro</li>
+                        <li>Sea salt, to taste</li>
+                    </ul>
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>In a large saucepan combine rice, onion, garlic, and oregano. Cook over medium-low 10
+                            minutes or until onion is softened and rice is toasted. (There should be enough moisture
+                            from the onion and rinsed rice to prevent burning.) </li>
+                        <li>Stir in peas, carrot, tomato sauce, and 2 cups water.</li>
+                        <li>Bring to boiling; reduce heat. Cover and simmer 25 to 30 minutes or until rice is tender and
+                            water is absorbed. Turn off heat; let stand, covered, 10 minutes.</li>
+                        <li>Turn off heat; let stand, covered, 10 minutes. </li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- Mexican-Style Brown Rice Ends-->
+
+            <!-- Breakfast Tostadas Starts -->
+            <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle" style="width: 35rem;">
+                <div class="card-body">
+                    <div class="jumbotron">
+                        <div class="card-title">
+                            <h2>Breakfast Tostadas</h2>
+                        </div>
+                        <hr>
+                        <h4 class="fst-italic">These Mexican-inspired vegan breakfast tostadas combine fresh veggies,
+                            creamy avocado, and crispy corn tortillas for a morning meal that’s hearty and healthy.</h4>
+                    </div>
+                    <div class="hovereffect">
+                        <img src="./resources/img/Breakfast-Tostada.jpeg" class="card-img-top" alt="Breakfast Tostadas">
+                        <div class="overlay">
+                            <h2>Breakfast Tostadas</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <div class="col px-1">
+                                <a href="#" class="link-dark fst-italic">Mexican kitchen</a>
+                                <div class="card-text">Makes 12 Tostadas</div>
+                            </div>
+                            <div class="col mx-1 text-secondary">
+                                <div>TOTAL</div>
+                                <div>30 minutes</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <h4>Ingredients</h4>
+                    <ul>
+                        <li>1½ fresh jalapeño chiles (see tip, recipe intro) </li>
+                        <li>1 medium tomato, chopped
+                        </li>
+                        <li>¾ cup onion, chopped
+                        </li>
+                        <li>¼ cup fresh cilantro, chopped
+                        </li>
+                        <li>2 tablespoons lime juice
+                        </li>
+                        <li>12 6-inch corn tortillas
+                        </li>
+                        <li>¾ cup red bell pepper, chopped
+                        </li>
+                        <li>2 cups fresh broccoli, coarsely chopped
+                        </li>
+                        <li>1 cup chickpea flour (also called besan)
+                        </li>
+                        <li>1 teaspoon regular or sodium-free baking powder</li>
+                        <li>1 teaspoon ground cumin
+                        </li>
+                        <li>½ teaspoon ground turmeric
+                        </li>
+
+                        <li>1½ cups unsweetened, unflavored plant-based milk
+                        </li>
+                        <li>Sea salt, to taste
+                        </li>
+                        <li>Freshly ground black pepper, to taste
+                        </li>
+                        <li>2 cups chopped romaine or salad greens
+                        </li>
+                        <li>½ of an avocado, seeded, peeled, and sliced
+                        </li>
+                        <li>1 lime, cut into wedges
+                        </li>
+
+                    </ul>
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>For Fresh Pico de Gallo, in a medium bowl combine 1 thinly sliced jalapeño chile, the
+                            tomato, ¼ cup of the chopped onion, the cilantro, and lime juice. Cover and refrigerate
+                            until ready to serve. </li>
+                        <li>Preheat oven to 375°F. Place tortillas directly on oven rack; bake 8 to 10 minutes or until
+                            crisp. Cool on a wire rack.</li>
+                        <li>Finely chop the remaining ½ jalapeño chile. In a large nonstick skillet cook bell pepper,
+                            the remaining onion, and the chopped jalapeño over medium for 3 to 4 minutes, stirring
+                            occasionally and adding water, 1 to 2 tablespoons at a time, as needed to prevent sticking.
+                            Add broccoli; cook 2 to 3 minutes or just until color brightens.
+                        </li>
+                        <li>In a large bowl combine the next five ingredients (through turmeric). Gradually add milk,
+                            beating until mixture is smooth. Add to skillet; cook 10 to 15 minutes or until thickened,
+                            stirring frequently. Season with salt and black pepper.</li>
+                        <li>To serve, top tortillas with romaine, broccoli mixture, Fresh Pico de Gallo, and avocado.
+                            Serve with lime wedges.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Breakfast Tostadas Ends -->
+
+            <!-- Vegan Pozole Starts -->
+            <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle" style="width: 35rem;">
+                <div class="card-body">
+                    <div class="jumbotron">
+                        <div class="card-title">
+                            <h2>Vegan Pozole</h2>
+                        </div>
+                        <hr>
+                        <h4 class="fst-italic">Pozole is a traditional Mexican stew that is frequently served on
+                            holidays and other celebrations. The star ingredient, hominy, is basically dried corn that
+                            has been alkalized in a mineral lime bath, which transforms the corn kernels into fat,
+                            tender, bean-like morsels. Traditional pozole also features pork, but this vegan pozole
+                            recipe replaces the meat with hearty ingredients like onions, carrots, potatoes, and plenty
+                            of chile peppers.
+
+                        </h4>
+                    </div>
+                    <div class="hovereffect">
+                        <img src="./resources/img/Vegan-Posole.jpeg" class="card-img-top" alt="Vegan Pozole">
+                        <div class="overlay">
+                            <h2>Vegan Pozole</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <div class="col px-1">
+                                <a href="#" class="link-dark fst-italic">Mexican kitchen</a>
+                                <div class="card-text">Makes 11 Cups</div>
+                            </div>
+                            <div class="col mx-1 text-secondary">
+                                <div>TOTAL</div>
+                                <div>60 minutes</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <h4>Ingredients</h4>
+                    <h5>STEW</h5>
+                    <ul>
+                        <li>2 (25-ounce) cans hominy, rinsed and drained (5 cups)
+                        </li>
+                        <li>2 medium potatoes, cut into ½-inch dice (4 cups)
+                        </li>
+                        <li>4 medium carrots, peeled and cut into ½-inch dice (2 cups)
+                        </li>
+                        <li>¾ medium onion, cut into ¼-inch dice, divided
+                        </li>
+                        <li>2 tablespoons minced fresh garlic
+                        </li>
+                        <li>2 teaspoons ground Mexican oregano
+                        </li>
+                        <li>½ teaspoon cumin powder
+                        </li>
+                        <li>2 Anaheim or Poblano chiles, seeded and cut into ¼-inch dice (1 cup)
+                        </li>
+                        <li>2 teaspoons guajillo chile powder
+                        </li>
+                        <li>2 tablespoons ancho chile powder
+                        </li>
+                        <li>Sea salt
+                        </li>
+
+                    </ul>
+                    <h5>GARNISHES</h5>
+                    <ul>
+                        <li>3 corn tortillas, cut into ¼-inch strips
+
+                        </li>
+                        <li>1 cup shredded red cabbage
+
+                        </li>
+                        <li>½ bunch radishes, cut into matchsticks (½ cup)
+
+                        </li>
+                        <li>¼ cup finely chopped fresh cilantro
+
+                        </li>
+                        <li>3 limes, cut into wedges
+
+                        </li>
 
 
-  <div class="container">
-  <footer class="py-5">
-    <div class="row">
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
+                    </ul>
 
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>In a large soup pot, combine the hominy, potatoes, carrots, 1 cup onions, garlic, oregano, and cumin with 1 cup water; cook on medium heat for 10 minutes. </li>
+                        <li>Add 8 cups of water, diced chiles, and guajillo and ancho chile powders. Bring to a boil, reduce heat to simmer and cook for 30 to 40 minutes until the hominy has softened and the stew has thickened. Add salt to taste.</li>
+                        <li>Meanwhile, preheat the oven to 350°F. Line a baking sheet with parchment paper. Spread the tortilla strips on the baking sheet and bake until crispy and golden-brown, 20 to 25 minutes, shaking the pan occasionally for even browning. Set aside.
 
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
+                        </li>
+                        <li>To serve, ladle the stew into individual bowls and garnish with tortilla strips, cabbage, radishes, remaining onions, and cilantro. Serve a wedge of lime on the side.</li>
+                     
+                    </ul>
+                </div>
+            </div>
+            <!-- Vegan Pozole Ends -->
+        </section>
+            <!-- Mexican Section Ends -->
+ </div>
 
-      <div class="col-md-5 offset-md-1 mb-3">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
-          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
-          </div>
-        </form>
-      </div>
-    </div>
 
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>© 2022 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
-    </div>
-  </footer>
-</div>
+    <footer>
+    </footer>
 </body>
 
 </html>

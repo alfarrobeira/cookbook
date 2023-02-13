@@ -1,25 +1,1223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookbook</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav>
 
-        </nav>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS link first -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS stylesheets after for overwriting Bootstrap styles -->
+    <link rel="stylesheet" href="resources/css/custom.css">
+    <!-- Special fonts -->
+    <!-- Use the fonts like this: 
+        font-family: 'Catamaran', sans-serif;
+        font-family: 'Lora', serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700;800&family=Lora:ital@0;1&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="resources/js/script.js"></script>
+</head>
+
+<body class="bg-body-secondary">
+
+    <header>
+        <!-- Logo , Welcome text and stuff -->
     </header>
 
-    <section id="ukrainian"></section>
-    <section id="mexican"></section>
-    <section id="italian"></section>
+    <div class="container">
 
-    <footer></footer>
+        <section class="section-content py-3">
+            <div class="row">
+                <aside class="col-lg-3">
+                    <!-- ============= COMPONENT ============== -->
+                    <nav class="sidebar card py-2 mb-4">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-house"> </i>Home</a> <br>
+                            </li>
+                            <!-- START italian section -->
+                            <section id="italian">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Italian<b class="float-end">&raquo;</b> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="nav-link" href="#">Bruschetta <b class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <div class="card shadow p-3 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Bruschetta</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4>Delicious all-time favorite bread for tomato and
+                                                                    garlic lovers.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/bruschetta.webp"
+                                                                    class="card-img-top img-responsive"
+                                                                    alt="Bruschetta">
+                                                                <div class="overlay">
+                                                                    <h2>Bruschetta</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark">Italian
+                                                                            kitchen</a>
+                                                                        <div class="card-text">6-10 servings</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div>10 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>6 to 7 ripe tomatoes (about 1 1/2 pounds)</li>
+                                                                <li>2 cloves garlic, minced (about 2 teaspoons)</li>
+                                                                <li>1 tablespoon extra virgin olive oil</li>
+                                                                <li>1 teaspoon balsamic vinegar</li>
+                                                                <li>6 to 8 fresh basil leaves, thinly sliced or chopped
+                                                                </li>
+                                                                <li>3/4 teaspoon sea salt, more or less to taste</li>
+                                                                <li>1/2 teaspoon freshly ground black pepper, more or
+                                                                    less to taste</li>
+                                                                <li>1 baguette, French bread, or similar Italian bread
+                                                                </li>
+                                                                <li>1/4 cup olive oil</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Vegetarian Lasagne <b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Vegetarian Lasagna</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4>Made with meaty shiitake and crimini mushrooms,
+                                                                    spinach and cheeses.
+                                                                </h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/vegetarian-lasagna.webp"
+                                                                    class="card-img-top" alt="Vegetarian Lasagna">
+                                                                <div class="overlay">
+                                                                    <h2>Vegetarian Lasagna</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark">Italian
+                                                                            kitchen</a>
+                                                                        <div class="card-text">8-10 servings</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div>30 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <h5>For the sauce:</h5>
+                                                            <ul>
+                                                                <li>1 1/2 pounds cremini mushrooms, roughly chopped
+                                                                </li>
+                                                                <li>1/2 pound shiitake mushrooms, roughly chopped
+                                                                </li>
+                                                                <li>1/4 teaspoon salt</li>
+                                                                <li>1 generous cup chopped onions</li>
+                                                                <li>1/4 cup extra virgin olive oil, plus more for
+                                                                    oiling the noodles</li>
+                                                                <li>4 cloves garlic, chopped (about 4 teaspoons)
+                                                                </li>
+                                                                <li>1 (6-ounce) can tomato paste</li>
+                                                                <li>2 cups prepared tomato sauce, divided</li>
+                                                                <li>1 (28-ounce) can crushed tomatoes</li>
+                                                                <li>1 cup water</li>
+                                                                <li>1 tablespoon dried thyme</li>
+                                                                <li>1/2 teaspoon red pepper flakes</li>
+                                                                <li>1 tablespoon sugar</li>
+                                                            </ul>
+                                                            <h5>For the lasagna:</h5>
+                                                            <ul>
+                                                                <li>2 (10-ounce) boxes frozen chopped spinach</li>
+                                                                <li>1 pound lasagna noodles (16 to 20 noodles)</li>
+                                                                <li>1 (15 or 16-ounce) container ricotta cheese</li>
+                                                                <li>1/4 cup chopped fresh basil</li>
+                                                                <li>1/4 pound shredded pecorino or Parmesan cheese
+                                                                    (about 1 cup)</li>
+                                                                <li>1 pound shredded mozzarella cheese (about 4
+                                                                    cups)</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Polenta <b class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Creamy Polenta</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4>White beans and nutritional yeast give this polenta
+                                                                    a creamy and cheesy taste, without the
+                                                                    dairy.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/creamy-polenta.webp"
+                                                                    class="card-img-top" alt="Creamy Polenta">
+                                                                <div class="overlay">
+                                                                    <h2>Creamy Polenta</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark">Italian
+                                                                            kitchen</a>
+                                                                        <div class="card-text">4 servings</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div>45 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <h5>For the polenta:</h5>
+                                                            <ul>
+                                                                <li>2 cups water</li>
+                                                                <li>3/4 teaspoon kosher salt</li>
+                                                                <li>1/2 cup yellow polenta</li>
+                                                            </ul>
+                                                            <h5>For the roasted broccoli:</h5>
+                                                            <ul>
+                                                                <li>4 cups chopped broccoli</li>
+                                                                <li>2 tablespoons olive oil</li>
+                                                                <li>1/2 teaspoon sea salt</li>
+                                                            </ul>
+                                                            <h5>For the white beans:</h5>
+                                                            <ul>
+                                                                <li>1 cup white beans</li>
+                                                                <li>3 tablespoons olive oil</li>
+                                                                <li>1 tablespoon nutritional yeast</li>
+                                                                <li>1 teaspoon garlic powder</li>
+                                                                <li>1/4 teaspoon onion powder</li>
+                                                                <li>Pinch salt</li>
+                                                            </ul>
+                                                            <h5>For the chili oil:</h5>
+                                                            <ul>
+                                                                <li>1/4 cup olive oil</li>
+                                                                <li>2 teaspoons chili flakes</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Rabe <b class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Lemony Broccoli Rabe</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4>This recipe works equally well as a side dish
+                                                                    alongside a roasted chicken or as a standalone
+                                                                    vegetarian main.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/lemony-broccoli-rabe.webp"
+                                                                    class="card-img-top" alt="Lemony Broccoli Rabe">
+                                                                <div class="overlay">
+                                                                    <h2>Lemony Broccoli Rabe</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark">Italian
+                                                                            kitchen</a>
+                                                                        <div class="card-text">4 servings</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div>22 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>1 bunch broccoli rabe, ends trimmed (about 2 1/2
+                                                                    pounds)</li>
+                                                                <li>1/2 teaspoon salt</li>
+                                                                <li>4 tablespoons olive oil</li>
+                                                                <li>1 lemon, very thinly sliced</li>
+                                                                <li>1 clove garlic</li>
+                                                                <li>2 (15-ounce) cans cannellini beans, drained and
+                                                                    rinsed</li>
+                                                                <li>1/2 teaspoon crushed red pepper</li>
+                                                                <li>1/2 cup water, or more if needed</li>
+                                                                <li>1 lemon, cut into wedges, for serving</li>
+                                                                <li>Extra crushed red pepper, for serving</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Tiramisu <b class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Tiramisu</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4>This classic is a great make-ahead dessert for
+                                                                    holiday gatherings or special occasions.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/tiramisu.webp"
+                                                                    class="card-img-top" alt="Tiramisu">
+                                                                <div class="overlay">
+                                                                    <h2>Tiramisu</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark">Italian
+                                                                            kitchen</a>
+                                                                        <div class="card-text">9 servings</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div>40 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>6 large egg yolks</li>
+                                                                <li>1 cup (200g) sugar, divided</li>
+                                                                <li>3 ounces (6 tablespoons) dark rum, divided</li>
+                                                                <li>1 1/2 cups (12 ounces) mascarpone cheese, cold from
+                                                                    the fridge</li>
+                                                                <li>1 cup heavy cream, cold from the fridge</li>
+                                                                <li>1 cup boiling water</li>
+                                                                <li>1 tablespoon instant espresso powder</li>
+                                                                <li>1 (7-ounce) package ladyfingers</li>
+                                                                <li>Unsweetened cocoa powder (not Dutch-processed) for
+                                                                    dusting the top</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </section>
+                            <!-- END italian section -->
+                            <!-- START mexican section -->
+                            <section id="mexican">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Mexican<b class="float-end">&raquo;</b></a>
+                                    <ul class="submenu dropdown-menu p-0">
+                                        <li><a class="nav-link" href="#">Baked Tortilla Chips<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <!-- Baked Tortilla Chips Starts -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Baked Tortilla Chips</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4 class="fst-italic">This simple recipe for homemade
+                                                                    baked tortilla chips is a staple for
+                                                                    whole-food, plant-based kitchens.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="./resources/img/Tortilla-Chips.jpeg"
+                                                                    class="rounded mx-auto d-block card-img-top img-responsive"
+                                                                    alt="Baked Tortilla Chips">
+                                                                <div class="overlay">
+                                                                    <h2>Baked Tortilla Chips</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Mexican
+                                                                            kitchen</a>
+                                                                        <div class="card-text">Makes about 32 chips
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div><i class="bi-alarm"
+                                                                                style="font-size: 1rem; color: rgb(0, 0, 0);">
+                                                                            </i>20 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>1 12-ounce package oil-free corn tortillas</li>
+                                                            </ul>
+                                                            <h4>Instructions</h4>
+                                                            <ul>
+                                                                <li>Preheat oven to 375°F.</li>
+                                                                <li>Cut each tortilla into fourths. Place on a cookie
+                                                                    sheet covered with a Silpat* and lightly
+                                                                    spray each chip with water.</li>
+                                                                <li>Sprinkle with herbs or salt-free seasonings, if
+                                                                    desired.</li>
+                                                                <li>Bake for 10 minutes.</li>
+                                                                <li>Turn chips over and lightly spray again with water.
+                                                                    Bake another 8-10 minutes, until crisp.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Baked Tortilla Chips Ends-->
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Spinach-Potato Tacos<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Spinach-Potato Tacos</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4 class="fst-italic">Traditional Mexican tacos are
+                                                                    much more than ground beef and sour cream
+                                                                    in a fried shell. There are many, many ways to make
+                                                                    tacos—in my opinion, this is one of the
+                                                                    best.
+                                                                </h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="./resources/img/Spinach-Potato-Tacos.jpeg"
+                                                                    class="card-img-top" alt="Spinach-Potato Tacos">
+                                                                <div class="overlay">
+                                                                    <h2>Spinach-Potato Tacos</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Mexican
+                                                                            kitchen</a>
+                                                                        <div class="card-text">Makes 12 Tacos; About 6
+                                                                            cups filling</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div><i class="bi-alarm"
+                                                                                style="font-size: 1rem; color: rgb(0, 0, 0);">
+                                                                            </i>50 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <!--   <h5>For the sauce:</h5> -->
+                                                            <ul>
+                                                                <li>2 large yukon gold potatoes, scrubbed and cut into
+                                                                    small dice</li>
+                                                                <li>1 (10-ounce) package frozen spinach, thawed</li>
+                                                                <li>1 large onion, diced</li>
+                                                                <li>1 medium poblano pepper, seeded and diced</li>
+                                                                <li>2 cloves garlic, minced</li>
+                                                                <li>2 teaspoons ground cumin</li>
+                                                                <li>1 cup unsweetened, unflavored plant milk</li>
+                                                                <li>3 tablespoons nutritional yeast</li>
+                                                                <li>Sea salt and freshly ground black pepper</li>
+                                                                <li>12 corn tortillas</li>
+                                                                <li>½ cup chopped fresh cilantro</li>
+
+                                                            </ul>
+                                                            <h4>Instructions:</h4>
+                                                            <ul>
+                                                                <li>Place the potatoes in a medium saucepan and add
+                                                                    water to cover. Bring to a boil, then reduce
+                                                                    the heat to medium-low and simmer, covered, until
+                                                                    the potatoes are tender when pierced with
+                                                                    the tip of a sharp knife, 10 to 12 minutes. Drain
+                                                                    well and set aside.</li>
+                                                                <li>Meanwhile, lay a clean kitchen towel or several
+                                                                    layers of paper towel on the counter and
+                                                                    place the thawed spinach at the bottom of one short
+                                                                    end. Roll up the spinach in the towel
+                                                                    and, holding it over the sink, twist either end of
+                                                                    the roll to squeeze out as much liquid
+                                                                    from the spinach as you can. Unroll and set aside.
+                                                                </li>
+                                                                <li>In a large skillet, cook the onion and poblano
+                                                                    pepper over medium heat, stirring
+                                                                    occasionally and adding water 1 to 2 tablespoons at
+                                                                    a time as needed to keep the vegetables
+                                                                    from sticking, until softened, 7 to 8 minutes. Add
+                                                                    the garlic and cumin and cook until
+                                                                    fragrant, about 1 minute.</li>
+                                                                <li>Add the reserved spinach and potatoes along with the
+                                                                    plant milk and nutritional yeast.
+                                                                    Season to taste with salt and pepper and cook until
+                                                                    heated through, 2 to 3 minutes. Remove
+                                                                    from the heat and set aside.</li>
+                                                                <li>Meanwhile, heat a large nonstick skillet over medium
+                                                                    heat. Add as many corn tortillas to the
+                                                                    pan as will fit in a single layer and heat for a few
+                                                                    minutes to warm the tortillas through.
+                                                                    Remove them from the pan and set them aside, covered
+                                                                    with a clean kitchen towel to keep
+                                                                    warm. Repeat with the remaining tortillas.</li>
+                                                                <li>To serve, place the tortillas on individual serving
+                                                                    plates or a large platter and divide the
+                                                                    potato mixture among them, spooning it onto the
+                                                                    center of each. Sprinkle with cilantro and
+                                                                    serve.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Mexican-Style Brown Rice<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Mexican-Style Brown Rice</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4 class="fst-italic">Mexican rice is a great
+                                                                    platter-filler when you’re in need of a savory
+                                                                    side dish that’s full of hearty ingredients, and
+                                                                    this version omits oil and replaces white
+                                                                    rice with brown for a healthier twist on the beloved
+                                                                    staple. </h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="./resources/img/mexican-brown-rice.jpeg"
+                                                                    class="card-img-top" alt="Mexican-Style Brown Rice">
+                                                                <div class="overlay">
+                                                                    <h2>Mexican-Style Brown Rice</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Mexican
+                                                                            kitchen</a>
+                                                                        <div class="card-text">Makes 8 Cups</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div><i class="bi-alarm"
+                                                                                style="font-size: 1rem; color: rgb(0, 0, 0);">
+                                                                            </i>60 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <!-- <h5>For the polenta:</h5> -->
+                                                            <ul>
+                                                                <li>1¼ cups dry long grain brown rice, rinsed and
+                                                                    drained</li>
+                                                                <li>1 cup finely chopped yellow onion</li>
+                                                                <li>8 cloves garlic, minced</li>
+                                                                <li>1 teaspoon dried Mexican oregano, crushed</li>
+                                                                <li>1½ cups fresh or frozen green peas</li>
+                                                                <li>½ cup finely chopped carrot</li>
+                                                                <li>1 8-oz. can tomato sauce (¾ cup)</li>
+                                                                <li>2 tablespoons finely chopped fresh cilantro</li>
+                                                                <li>Sea salt, to taste</li>
+                                                            </ul>
+                                                            <h4>Instructions:</h4>
+                                                            <ul>
+                                                                <li>In a large saucepan combine rice, onion, garlic, and
+                                                                    oregano. Cook over medium-low 10
+                                                                    minutes or until onion is softened and rice is
+                                                                    toasted. (There should be enough moisture
+                                                                    from the onion and rinsed rice to prevent burning.)
+                                                                </li>
+                                                                <li>Stir in peas, carrot, tomato sauce, and 2 cups
+                                                                    water.</li>
+                                                                <li>Bring to boiling; reduce heat. Cover and simmer 25
+                                                                    to 30 minutes or until rice is tender and
+                                                                    water is absorbed. Turn off heat; let stand,
+                                                                    covered, 10 minutes.</li>
+                                                                <li>Turn off heat; let stand, covered, 10 minutes. </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Breakfast Tostadas<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Breakfast Tostadas</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4 class="fst-italic">These Mexican-inspired vegan
+                                                                    breakfast tostadas combine fresh veggies,
+                                                                    creamy avocado, and crispy corn tortillas for a
+                                                                    morning meal that’s hearty and healthy.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="./resources/img/Breakfast-Tostada.jpeg"
+                                                                    class="card-img-top" alt="Breakfast Tostadas">
+                                                                <div class="overlay">
+                                                                    <h2>Breakfast Tostadas</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Mexican
+                                                                            kitchen</a>
+                                                                        <div class="card-text">Makes 12 Tostadas</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div><i class="bi-alarm"
+                                                                                style="font-size: 1rem; color: rgb(0, 0, 0);">
+                                                                            </i>30 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>1½ fresh jalapeño chiles (see tip, recipe intro)
+                                                                </li>
+                                                                <li>1 medium tomato, chopped
+                                                                </li>
+                                                                <li>¾ cup onion, chopped
+                                                                </li>
+                                                                <li>¼ cup fresh cilantro, chopped
+                                                                </li>
+                                                                <li>2 tablespoons lime juice
+                                                                </li>
+                                                                <li>12 6-inch corn tortillas
+                                                                </li>
+                                                                <li>¾ cup red bell pepper, chopped
+                                                                </li>
+                                                                <li>2 cups fresh broccoli, coarsely chopped
+                                                                </li>
+                                                                <li>1 cup chickpea flour (also called besan)
+                                                                </li>
+                                                                <li>1 teaspoon regular or sodium-free baking powder</li>
+                                                                <li>1 teaspoon ground cumin
+                                                                </li>
+                                                                <li>½ teaspoon ground turmeric
+                                                                </li>
+
+                                                                <li>1½ cups unsweetened, unflavored plant-based milk
+                                                                </li>
+                                                                <li>Sea salt, to taste
+                                                                </li>
+                                                                <li>Freshly ground black pepper, to taste
+                                                                </li>
+                                                                <li>2 cups chopped romaine or salad greens
+                                                                </li>
+                                                                <li>½ of an avocado, seeded, peeled, and sliced
+                                                                </li>
+                                                                <li>1 lime, cut into wedges
+                                                                </li>
+
+                                                            </ul>
+                                                            <h4>Instructions:</h4>
+                                                            <ul>
+                                                                <li>For Fresh Pico de Gallo, in a medium bowl combine 1
+                                                                    thinly sliced jalapeño chile, the
+                                                                    tomato, ¼ cup of the chopped onion, the cilantro,
+                                                                    and lime juice. Cover and refrigerate
+                                                                    until ready to serve. </li>
+                                                                <li>Preheat oven to 375°F. Place tortillas directly on
+                                                                    oven rack; bake 8 to 10 minutes or until
+                                                                    crisp. Cool on a wire rack.</li>
+                                                                <li>Finely chop the remaining ½ jalapeño chile. In a
+                                                                    large nonstick skillet cook bell pepper,
+                                                                    the remaining onion, and the chopped jalapeño over
+                                                                    medium for 3 to 4 minutes, stirring
+                                                                    occasionally and adding water, 1 to 2 tablespoons at
+                                                                    a time, as needed to prevent sticking.
+                                                                    Add broccoli; cook 2 to 3 minutes or just until
+                                                                    color brightens.
+                                                                </li>
+                                                                <li>In a large bowl combine the next five ingredients
+                                                                    (through turmeric). Gradually add milk,
+                                                                    beating until mixture is smooth. Add to skillet;
+                                                                    cook 10 to 15 minutes or until thickened,
+                                                                    stirring frequently. Season with salt and black
+                                                                    pepper.</li>
+                                                                <li>To serve, top tortillas with romaine, broccoli
+                                                                    mixture, Fresh Pico de Gallo, and avocado.
+                                                                    Serve with lime wedges.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Vegan Pozole<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle"
+                                                        style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Vegan Pozole</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4 class="fst-italic">Pozole is a traditional Mexican
+                                                                    stew that is frequently served on
+                                                                    holidays and other celebrations. The star
+                                                                    ingredient, hominy, is basically dried corn that
+                                                                    has been alkalized in a mineral lime bath, which
+                                                                    transforms the corn kernels into fat,
+                                                                    tender, bean-like morsels. Traditional pozole also
+                                                                    features pork, but this vegan pozole
+                                                                    recipe replaces the meat with hearty ingredients
+                                                                    like onions, carrots, potatoes, and plenty
+                                                                    of chile peppers.
+
+                                                                </h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="./resources/img/Vegan-Posole.jpeg"
+                                                                    class="card-img-top" alt="Vegan Pozole">
+                                                                <div class="overlay">
+                                                                    <h2>Vegan Pozole</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Mexican
+                                                                            kitchen</a>
+                                                                        <div class="card-text">Makes 11 Cups</div>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <div><i class="bi-alarm"
+                                                                                style="font-size: 1rem; color: rgb(0, 0, 0);">
+                                                                            </i>60 minutes</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                            <h4>Ingredients</h4>
+                                                            <h5>STEW</h5>
+                                                            <ul>
+                                                                <li>2 (25-ounce) cans hominy, rinsed and drained (5
+                                                                    cups)
+                                                                </li>
+                                                                <li>2 medium potatoes, cut into ½-inch dice (4 cups)
+                                                                </li>
+                                                                <li>4 medium carrots, peeled and cut into ½-inch dice (2
+                                                                    cups)
+                                                                </li>
+                                                                <li>¾ medium onion, cut into ¼-inch dice, divided
+                                                                </li>
+                                                                <li>2 tablespoons minced fresh garlic
+                                                                </li>
+                                                                <li>2 teaspoons ground Mexican oregano
+                                                                </li>
+                                                                <li>½ teaspoon cumin powder
+                                                                </li>
+                                                                <li>2 Anaheim or Poblano chiles, seeded and cut into
+                                                                    ¼-inch dice (1 cup)
+                                                                </li>
+                                                                <li>2 teaspoons guajillo chile powder
+                                                                </li>
+                                                                <li>2 tablespoons ancho chile powder
+                                                                </li>
+                                                                <li>Sea salt
+                                                                </li>
+
+                                                            </ul>
+                                                            <h5>GARNISHES</h5>
+                                                            <ul>
+                                                                <li>3 corn tortillas, cut into ¼-inch strips
+
+                                                                </li>
+                                                                <li>1 cup shredded red cabbage
+
+                                                                </li>
+                                                                <li>½ bunch radishes, cut into matchsticks (½ cup)
+
+                                                                </li>
+                                                                <li>¼ cup finely chopped fresh cilantro
+
+                                                                </li>
+                                                                <li>3 limes, cut into wedges
+
+                                                                </li>
+
+
+                                                            </ul>
+
+                                                            <h4>Instructions:</h4>
+                                                            <ul>
+                                                                <li>In a large soup pot, combine the hominy, potatoes,
+                                                                    carrots, 1 cup onions, garlic, oregano, and cumin
+                                                                    with 1 cup water; cook on medium heat for 10
+                                                                    minutes. </li>
+                                                                <li>Add 8 cups of water, diced chiles, and guajillo and
+                                                                    ancho chile powders. Bring to a boil, reduce heat to
+                                                                    simmer and cook for 30 to 40 minutes until the
+                                                                    hominy has softened and the stew has thickened. Add
+                                                                    salt to taste.</li>
+                                                                <li>Meanwhile, preheat the oven to 350°F. Line a baking
+                                                                    sheet with parchment paper. Spread the tortilla
+                                                                    strips on the baking sheet and bake until crispy and
+                                                                    golden-brown, 20 to 25 minutes, shaking the pan
+                                                                    occasionally for even browning. Set aside.
+
+                                                                </li>
+                                                                <li>To serve, ladle the stew into individual bowls and
+                                                                    garnish with tortilla strips, cabbage, radishes,
+                                                                    remaining onions, and cilantro. Serve a wedge of
+                                                                    lime on the side.</li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </section>
+                            <!-- END mexican section -->
+                            <!-- START ukrainian section -->
+                            <section id="ukrainian">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Ukrainian<b class="float-end">&raquo;</b></a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="nav-link" href="#">Borsch<b class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle" style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2>Borsch</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h4 class="fst-italic">Everyone knows what it is and many people around the world have
+                                                                    fallen in love with this iconic beet soup.</h4>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/OG-Ukrainian-Foodepb0310.jpg" class="card-img-top img-responsive"
+                                                                    alt="Borsch">
+                                                                <div class="overlay">
+                                                                    <h2>Borsch</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Ukrainian kitchen</a>
+                                                                        <p class="card-text">For 10 servings</p>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div> TOTAL</div>
+                                                                        <div>1,5h</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>3 medium beets, peeled and grated</li>
+                                                                <li>4 Tbsp olive oil, divided</li>
+                                                                <li>8 cups chicken broth , + 2 cups water</li>
+                                                                <li>3 medium yukon potatoes, peeled and sliced into bite-sized pieces</li>
+                                                                <li>2 carrots, peeled and thinly sliced</li>
+                                                                <li>2 celery ribs, trimmed and finely chopped</li>
+                                                                <li>1 small red bell pepper, finely chopped, optional</li>
+                                                                <li>1 medium onion, finely chopped</li>
+                                                                <li>4 Tbsp ketchup or 3 Tbsp tomato sauce</li>
+                                                                <li>1 can white cannelini beans with their juice</li>
+                                                                <li>2 bay leaves</li>
+                                                                <li>2-3 Tbsp white vinegar, or to taste</li>
+                                                                <li>1 tsp sea salt, or to taste</li>
+                                                                <li>1/4 tsp black pepper, freshly ground</li>
+                                                                <li>1 large garlic clove, pressed</li>
+                                                                <li>3 Tbsp chopped dill</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Cheese Dumplings<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle " style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2 class="">Cheese Dumplings</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h5 class="fst-italic">Everyone knows what it is and many people around the world have
+                                                                    fallen in
+                                                                    love with this iconic beet soup.</h5>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/Homemade-Cottage-Cheese-Dumplings-with-Berries-800x530.jpg"
+                                                                    class="card-img-top img-responsive" alt="Cheese Dumplings">
+                                                                <div class="overlay">
+                                                                    <h2>Cheese Dumplings</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Ukrainian kitchen</a>
+                                                                        <p class="card-text">For 10 servings</p>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <span>1,5h</span>
+                                                                    </div>
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>
+                                                                    Tvorog (Cottage cheese)250 g</li>
+                                                                <li>
+                                                                    Egg1 pieces</li>
+                                                                <li>
+                                                                    Dairy butter50 g</li>
+                                                                <li>
+                                                                    Flour4 tbsp</li>
+                                                                <li>
+                                                                    Sugar2 tbsp</li>
+                                                                <li>
+                                                                    Salt1 pinchs</li>
+                                                                <li>
+                                                                    Smetana (sour cream)200 g</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Chicken Kyiv<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle " style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2 class="">Chicken Kyiv</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h5 class="fst-italic">Everyone knows what it is and many people around the world have
+                                                                    fallen in
+                                                                    love with this iconic beet soup.</h5>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/chicken-Kyiv-shutterstock.jpg" class="card-img-top img-responsive"
+                                                                    alt="Chicken Kyiv">
+                                                                <div class="overlay">
+                                                                    <h2>Chicken Kyiv</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1"><a href="#" class="link-dark fst-italic">Ukrainian kitchen</a>
+                                                                        <p class="card-text">For 10 servings</p>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <span>1,5h</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>Chicken breasts - 2 large chicken breasts</li>
+                                                                <li>
+                                                                    Butter - 100 grams (7 tbsp or 3.5 oz)</li>
+                                                                <li>
+                                                                    Herbs - a handful of parsley</li>
+                                                                <li>
+                                                                    Garlic - 3 garlic cloves, minced</li>
+                                                                <li>
+                                                                    White breadcrumbs - 1 and 1/2 cup</li>
+                                                                <li>
+                                                                    Eggs - 3 medium eggs, whisked</li>
+                                                                <li>
+                                                                    Flour- 5 heaped tbsp of plain (all-purpose) flour</li>
+                                                                <li>
+                                                                    Salt - 1 tsp</li>
+                                                                <li>
+                                                                    Black pepper - 1/2 tsp</li>
+                                                                <li>
+                                                                    Sunflower oil - up to 1 bottle of 1 liter (34 fl.oz), depending on the size of the pot
+                                                                    you use</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Cabbage Rolls<b
+                                                    class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle " style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2 class="">Cabbage Rolls</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h5 class="fst-italic">Everyone knows what it is and many people around the world have
+                                                                    fallen in
+                                                                    love with this iconic beet soup.</h5>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/Image-of-Ukrainian-cabbage-rolls.jpg"
+                                                                    class="card-img-top img-responsive" alt="Cabbage Rolls">
+                                                                <div class="overlay">
+                                                                    <h2>Cabbage Rolls</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Ukrainian kitchen</a>
+                                                                        <p class="card-text">For 10 servings</p>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div> <span>1,5h</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>
+                                                                    1 tablespoon olive oil</li>
+                                                                <li>
+                                                                    1/2 medium onion finely chopped</li>
+                                                                <li>
+                                                                    2 cloves garlic minced</li>
+                                                                <li>
+                                                                    1 can (15 ounce) tomato sauce</li>
+                                                                <li>
+                                                                    1 can (14.5 ounce) petite diced tomatoes</li>
+                                                                <li>
+                                                                    1 tablespoon cider vinegar</li>
+                                                                <li>
+                                                                    1 1/2 tablespoons brown sugar</li>
+                                                                <li>
+                                                                    salt and pepper to taste</li>
+                                                                <li>
+                                                                    1 large head green cabbage</li>
+                                                                <li>
+                                                                    1/2 pound ground pork sausage</li>
+                                                                <li>
+                                                                    1/2 pound ground beef</li>
+                                                                <li>
+                                                                    1/2 medium onion finely chopped</li>
+                                                                <li>
+                                                                    2 cloves garlic minced</li>
+                                                                <li>
+                                                                    1 egg</li>
+                                                                <li>
+                                                                    3/4 cup Minute Rice (or long-grain parboiled rice)</li>
+                                                                <li>
+                                                                    1 tablespoon dried parsley</li>
+                                                                <li>
+                                                                    1/2 teaspoon paprika</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#">Vareniki<b class="float-end">&raquo;</b></a>
+                                            <ul class="submenu dropdown-menu p-0">
+                                                <li>
+                                                    <!-- START recipe card -->
+                                                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded bg-dark-subtle " style="width: 35rem;">
+                                                        <div class="card-body">
+                                                            <div class="jumbotron">
+                                                                <div class="card-title">
+                                                                    <h2 class="">Vareniki</h2>
+                                                                </div>
+                                                                <hr>
+                                                                <h5 class="fst-italic">Everyone knows what it is and many people around the world have
+                                                                    fallen in
+                                                                    love with this iconic beet soup.</h5>
+                                                            </div>
+                                                            <div class="hovereffect">
+                                                                <img src="resources/img/ukrainian-food-0-10-1024x640.jpg" class="card-img-top img-responsive"
+                                                                    alt="Vareniki">
+                                                                <div class="overlay">
+                                                                    <h2>Vareniki</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row mt-2">
+                                                                    <div class="col px-1">
+                                                                        <a href="#" class="link-dark fst-italic">Ukrainian kitchen</a>
+                                                                        <p class="card-text">For 10 servings</p>
+                                                                    </div>
+                                                                    <div class="col mx-1 text-secondary">
+                                                                        <div>TOTAL</div>
+                                                                        <span>1,5h</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <h4>Ingredients</h4>
+                                                            <ul>
+                                                                <li>Kefir1 glass</li>
+                                                                <li>
+                                                                    Soda0.5 tsp</li>
+                                                                <li>
+                                                                    Flour5 glass</li>
+                                                                <li>
+                                                                    Salt0.5 tsp</li>
+                                                                <li>
+                                                                    Potatoes8 pieces</li>
+                                                                <li>
+                                                                    Vegetable oil45 ml</li>
+                                                                <li>
+                                                                    Dairy butter10 g</li>
+                                                                <li>
+                                                                    Ground black pepper0.5 tsp</li>
+                                                                <li>
+                                                                    Onions4 pieces</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END recipe card -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </section>
+                            <!-- END ukrainian section -->
+                        </ul>
+                    </nav>
+                    <!-- ============= Nav Component END ============== -->
+                </aside>
+                <main class="col-lg-3 bg-body-light rounded">
+                    <h1>Cookbook</h1>
+                    <p>add some more text here</p>
+                </main>
+
+            </div>
+        </section>
+
+    </div><!-- container //  -->
+
+    <footer>
+    </footer>
 </body>
+
 </html>
